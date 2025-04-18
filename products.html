@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Products - Health Corner</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h1>
+            <a href="index.html">Health<span>Corner</span></a>
+          </h1>
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Our Products</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+      <div class="container">
+        <h2 class="section-title">Our Products</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            All Products
+          </button>
+          <button class="filter-btn" data-filter="pharmaceutical">
+            Pharmaceutical
+          </button>
+          <button class="filter-btn" data-filter="cosmetic">Cosmetics</button>
+        </div>
+        <div class="products-grid">
+          <!-- Products will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Health<span>Corner</span></h3>
+            <p>
+              Leading pharmaceutical and cosmetic products distributor in
+              Lebanon.
+            </p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Contact</h4>
+              <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Beirut, Lebanon</li>
+                <li><i class="fas fa-phone"></i> +961 1 234 567</li>
+                <li><i class="fas fa-envelope"></i> info@healthcorner.com</li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Health Corner. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="products.js" defer></script>
+  </body>
+</html>
