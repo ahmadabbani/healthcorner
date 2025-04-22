@@ -1773,6 +1773,15 @@ section {
     padding: 0 1rem;
 }
 
+/* Coming Soon message styling */
+.products .coming-soon {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin: 3rem 0;
+    font-weight: 600;
+}
+
 .filter-buttons {
     display: flex;
     justify-content: center;
