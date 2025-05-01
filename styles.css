@@ -605,6 +605,7 @@ section {
 }
 
 .stat-number {
+
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -615,8 +616,9 @@ section {
 .stat-number::after {
     content: '+';
     position: absolute;
-    top: 0;
-    right: -1.5rem;
+    top: -10%;
+    right: 20%;
+    transform: translateX(20%);
     font-size: 3rem;
     color: #FFFFFF;
     opacity: 0.8;
@@ -662,7 +664,7 @@ section {
 
     .stat-number::after {
         font-size: 2.5rem;
-        right: -1.2rem;
+
     }
 
     .stat-label {
@@ -743,7 +745,6 @@ section {
 
     .stat-number::after {
         font-size: 2.5rem;
-        right: -1.2rem;
         color: #FFFFFF;
     }
 
