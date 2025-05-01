@@ -78,11 +78,7 @@ heroSlider.addEventListener("mouseleave", startSlider);
 document.querySelectorAll(".nav-links a").forEach((link) => {
   const href = link.getAttribute("href");
   // Only prevent default for About, Contact, and Products pages
-  if (
-    href === "about.html" ||
-    href === "contact.html" ||
-    href === "products.html"
-  ) {
+  if (href === "contact.html" || href === "products.html") {
     link.addEventListener("click", function (e) {
       e.preventDefault();
       window.location.href = href;
