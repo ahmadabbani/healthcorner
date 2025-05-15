@@ -47,7 +47,7 @@ function prevSlide() {
 }
 
 function startSlider() {
-  slideInterval = setInterval(nextSlide, 5000);
+  slideInterval = setInterval(nextSlide, 4000);
 }
 
 function stopSlider() {
@@ -71,8 +71,8 @@ nextBtn.addEventListener("click", () => {
 startSlider();
 
 // Pause slider on hover
-heroSlider.addEventListener("mouseenter", stopSlider);
-heroSlider.addEventListener("mouseleave", startSlider);
+//heroSlider.addEventListener("mouseenter", stopSlider);
+//heroSlider.addEventListener("mouseleave", startSlider);
 
 // Handle navigation links
 document.querySelectorAll(".nav-links a").forEach((link) => {

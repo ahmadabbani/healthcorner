@@ -162,15 +162,15 @@ a[href^="#"] {
 }
 
 .hero-slide:nth-child(1) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/towfiqu-barbhuiya-w8p9cQDLX7I-unsplash.jpg');
 }
 
 .hero-slide:nth-child(2) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/volodymyr-hryshchenko-aXbfOFQ_juU-unsplash.jpg');
 }
 
 .hero-slide:nth-child(3) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/cytonn-photography-n95VMLxqM2I-unsplash.jpg');
 }
 
 .hero-slide.active {
@@ -968,8 +968,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    grid-template-areas:
-        "tall small"
+    grid-template-areas: "tall small"
         "tall wide";
 }
 
@@ -1045,8 +1044,7 @@ section {
 @media (max-width: 576px) {
     .Infrastructure-gallery {
         grid-template-columns: 1fr;
-        grid-template-areas:
-            "tall"
+        grid-template-areas: "tall"
             "small"
             "wide";
     }
@@ -1061,7 +1059,7 @@ section {
 /* CTA Section */
 .cta {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+        url('images/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg');
     background-size: cover;
     background-position: center;
     padding: 3rem 0;
