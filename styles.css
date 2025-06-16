@@ -110,7 +110,7 @@ a[href^="#"] {
 .logo {
     width: fit-content;
     height: fit-content !important;
-    padding: 0 !important;
+    padding: 6px 0 6px 0 !important;
     margin: 0;
 }
 
@@ -124,8 +124,8 @@ a[href^="#"] {
 }
 
 .logo img {
-    width: 85px;
-    height: 75px;
+    width: 95px;
+    height: 65px;
     margin: 0 !important;
 }
 
@@ -370,8 +370,8 @@ section {
 
 /* Footer Styles */
 .footer {
-    background-color: #62809e;
-    color: white;
+    background-color: #ddd;
+    color: var(--text-color);
     padding: 4rem 0 2rem;
 }
 
@@ -384,7 +384,7 @@ section {
 
 .footer-logo img {
     width: 130px;
-    height: 130px;
+    height: 110px;
 }
 
 .footer-links {
@@ -395,6 +395,7 @@ section {
 
 .footer-column h4 {
     font-size: 1.2rem;
+    color: var(--text-color);
     margin-bottom: 1.5rem;
 }
 
@@ -405,11 +406,12 @@ section {
 .footer-column ul li {
     margin-bottom: 0.8rem;
     font-size: 1rem;
+    color: var(--primary-color);
 }
 
 .footer-column ul li a {
     font-size: 1rem;
-    color: #ffffff;
+    color: var(--text-color);
     text-decoration: none;
     transition: var(--transition);
 }
@@ -424,7 +426,7 @@ section {
 }
 
 .social-links a {
-    color: white;
+    color: var(--text-color);
     font-size: 1.2rem;
     transition: var(--transition);
 }
@@ -434,9 +436,10 @@ section {
 }
 
 .footer-bottom {
+    color: gray;
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 /* Responsive Design */
